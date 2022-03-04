@@ -163,10 +163,15 @@ footer {
   display: flex;
   justify-content: center;
 }
-#social-icon img {
+#social-icon p {
   width: 32px;
   margin: 5px;
+  color: gray;
 }
+#social-icon p:hover {
+  color: goldenrod;
+}
+
 footer p {
   text-align: center;
 }
